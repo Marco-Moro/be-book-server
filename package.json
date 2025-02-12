@@ -1,0 +1,23 @@
+{
+  "name": "new-book-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "setup-dbs": "psql -f ./db/setup-dbs.sql",
+    "seed": "node ./db/seed/run-seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "node-postgres": "^0.6.2",
+    "pg": "^8.13.1",
+    "pg-format": "^1.0.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
