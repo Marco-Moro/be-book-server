@@ -1,7 +1,7 @@
 {
   "name": "new-book-server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "jest",
     "setup-dbs": "psql -f ./db/setup-dbs.sql",
@@ -13,8 +13,9 @@
   "description": "",
   "dependencies": {
     "dotenv": "^16.4.7",
+    "express": "^5.1.0",
     "node-postgres": "^0.6.2",
-    "pg": "^8.13.1",
+    "pg": "^8.11.1",
     "pg-format": "^1.0.4"
   },
   "devDependencies": {
